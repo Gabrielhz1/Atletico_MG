@@ -1,0 +1,65 @@
+@media (max-width:1330px) {
+    body {
+        background-image: url(./mrv.jpg);
+        background-size: auto;
+        
+    }
+
+    .cabecalho .logo {
+        display: flex;
+        max-width: 150px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .selecao-de-personagens {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-personagens .personagens {
+        margin-top: 37px;
+    }
+
+    .selecao-de-personagens .personagens .titulo {
+        font-size: 15px;
+
+        
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        gap: 9px;
+       
+        width: 100%;
+    }
+    
+
+
+    .selecao-de-personagens .personagens img {
+        
+        width: 80px;
+        
+    }
+
+    .personagem-selecionado .personagem-grande {
+        width: 300px;
+        height: 300px;
+        margin-right: 120px;
+    }
+    .personagem-selecionado .nome-personagem {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .personagem-selecionado .descricao-personagem {
+        text-align: center;
+        max-width:75%;
+        font-size: 16px;
+
+        
+    }
+
+    
+
+}

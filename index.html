@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Atletico-MG</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    
+    
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./galo.png" alt="logo galo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Jogador</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="hulk"  data-name="Hulk" 
+                data-description="Givanildo Vieira de Sousa, mais conhecido como Hulk ou Hulk Paraíba, é um futebolista brasileiro que atua como atacante. Atualmente, joga pelo Atlético Mineiro." >
+                    <img src="./Hulk.webp" alt="personagem HULK" >
+                </li>
+
+                <li class="personagem" id="zaracho" data-name="Zaracho" 
+                data-description="Federico Matías Javier Zaracho, conhecido como Matías Zaracho, é um futebolista argentino que atua como meia-atacante e ponta. Atualmente, joga pelo Atlético Mineiro.">
+                    <img src="./Zaracho.webp" alt="personagem zaracho" >
+                </li>
+
+                <li class="personagem" id="rever"  data-name="Rever" 
+                data-description="Réver Humberto Alves Araújo, mais conhecido como Réver, é um futebolista brasileiro que atua como zagueiro. Atualmente defende o Atlético Mineiro. Réver é o terceiro defensor com mais gols no Campeonato Brasileiro e o zagueiro com mais gols">
+                    <img src="./Reer.webp" alt="personagem rever">
+                </li>
+
+                <li class="personagem" id="everson" data-name="Everson" 
+                data-description="Éverson Felipe Marques Pires, mais conhecido como Éverson, é um futebolista brasileiro que atua como goleiro. Atualmente joga pelo Atlético Mineiro.">
+                    <img src="./Everson.webp" alt="personagem everson" >
+                </li>
+            
+                <li class="personagem" id="vargas" data-name="Vargas" 
+                data-description="Eduardo Jesús Vargas Rojas é um futebolista chileno que atua como atacante. Atualmente, joga pelo Atlético Mineiro.">
+                    <img src="./Vargas.webp" alt="personagem vargas" >
+                </li>
+
+                <li class="personagem" id="mariano" data-name="Mariano" 
+                data-description="Mariano Ferreira Filho, conhecido simplesmente como Mariano, é um futebolista profissional brasileiro que atua como lateral-direito no Atlético Mineiro.">
+                    <img src="./Mariano.webp" alt="personagem mariano" >
+                </li>
+
+                <li class="personagem" id="paulinho" data-name="Paulinho" 
+                data-description="Paulo Henrique Sampaio Filho, mais conhecido como Paulinho, é um futebolista brasileiro que atua como ponta. Atualmente, defende o Atlético Mineiro.">
+                    <img src="./Paulinho-1.webp" alt="personagem paulinho" >
+                </li>
+
+                <li class="personagem" id="pavon" data-name="Pavon" 
+                data-description="Cristian David Pavón é um futebolista argentino que atua como ponta-direita. Atualmente joga no Atlético Mineiro. ">
+                    <img src="./Pavon.webp" alt="personagem pavon" >
+                </li>
+
+
+
+
+            </ul>
+
+        </section>
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./hulkgrande.png" alt="personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Hulk</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Givanildo Vieira de Sousa, mais conhecido como Hulk ou Hulk Paraíba,
+                    é um futebolista brasileiro que atua como atacante. Atualmente, joga pelo Atlético Mineiro. 
+
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+     <script src="./index.js"></script> 
+
+
+</body>
+</html>
